@@ -1,10 +1,10 @@
 # 💼 Portfolio
 
-Personal portfolio website showcasing software engineering projects.
+Technical portfolio focused on software development, systems, and applied machine learning. Projects, technical decisions, and hands-on learning.
 
 ## Overview
 
-This is a modern, responsive portfolio built with React and TypeScript. It features secure admin authentication using TOTP (Time-based One-Time Passwords) for managing project content dynamically.
+This is a modern, responsive portfolio built with React and TypeScript. It features secure admin authentication using Hashing for managing project content dynamically.
 
 ![Portfolio gif](./public/portfolio.gif)
 
@@ -24,10 +24,9 @@ This is a modern, responsive portfolio built with React and TypeScript. It featu
 - Responsive design optimized for all devices
 - Internationalization support (English/Spanish)
 - Dynamic project management with admin panel
-- Secure two-factor authentication using Microsoft Authenticator
+- Secure Hashing authentication
 - Markdown support for project descriptions
 - Dark mode support via next-themes
-- SEO optimized
 
 ## Getting Started
 
@@ -118,17 +117,14 @@ src/
 The portfolio includes a secure admin panel for managing projects:
 
 1. Click the lock icon in the bottom-right corner
-2. First-time setup: Enter setup password to view QR code
-3. Scan QR code with Microsoft Authenticator
-4. Login with 6-digit TOTP code
-5. Add, edit, or delete projects
+2. First-time setup: Enter setup password
+3. Add, edit, or delete projects
 
 ## 🔒 Security
 
-- TOTP-based two-factor authentication
+- Hash authentication
 - Environment variables for sensitive data
-- Setup password protection for QR code access
-- No secrets committed to repository
+- Setup password protection using [hashing](https://emn178.github.io/online-tools/sha256.html)
 
 ## 🌐 Deployment
 
