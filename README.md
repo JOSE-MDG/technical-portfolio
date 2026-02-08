@@ -14,7 +14,7 @@ This is a modern, responsive portfolio built with React and TypeScript. It featu
 - **Build Tool**: Vite
 - **UI Framework**: Tailwind CSS, shadcn/ui components
 - **Routing**: React Router v6
-- **Authentication**: otplib (TOTP), qrcode
+- **Authentication**: Hashed password
 - **Markdown**: react-markdown with @tailwindcss/typography
 - **State Management**: React Query
 - **Testing**: Vitest, React Testing Library
