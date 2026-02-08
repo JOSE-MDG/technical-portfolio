@@ -41,8 +41,8 @@ This is a modern, responsive portfolio built with React and TypeScript. It featu
 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd ml-portfolio
+git git@github.com:JOSE-MDG/technical-portfolio.git
+cd technical-portfolio
 ```
 
 2. Install dependencies
