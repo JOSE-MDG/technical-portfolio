@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Fondo azul (accent color) -->
+  <rect width="100" height="100" fill="#3b82f6" rx="20"/>
+  
+  <!-- Iniciales JM en blanco -->
+  <text 
+    x="50" 
+    y="72" 
+    font-size="48" 
+    text-anchor="middle" 
+    fill="white" 
+    font-family="Arial, sans-serif" 
+    font-weight="bold"
+  >
+    JM
+  </text>
+</svg>
